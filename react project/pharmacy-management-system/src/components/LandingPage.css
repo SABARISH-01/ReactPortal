@@ -1,0 +1,89 @@
+/* LandingPage.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333; /* Default text color */
+  }
+  
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #1f3b57; /* Darker navy blue for the header */
+    padding: 20px;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-title {
+    color: #ffffff; /* White color for header title */
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-link {
+    color: #ffffff; /* White color for navigation links */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, rgba(110, 54, 255, 0.85), rgba(250, 250, 250, 0.85)); /* Lighter gradient with semi-transparent overlay */
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    color: #ffffff; /* White text color for hero title */
+    margin-bottom: 20px;
+    text-shadow: 3px 3px #1f3b57; /* Adding shadow to make the text pop */
+  }
+  
+  .hero-text {
+    font-size: 18px;
+    color: #f5f5f5; /* Light gray text color */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #333; /* Light shadow to make it more readable */
+  }
+  
+  .cta-button {
+    background-color: #1f3b57; /* Dark navy button color */
+    color: #ffffff; /* White text color */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #16334b; /* Slightly darker shade for hover */
+  }
+  
