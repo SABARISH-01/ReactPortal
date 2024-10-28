@@ -11,3 +11,4 @@ const Album = () => {
  </div>
  );
 };
+export default Album;
